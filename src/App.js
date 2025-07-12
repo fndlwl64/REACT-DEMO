@@ -7,8 +7,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/movie/:id" element={<Detail />} /> {/* Adding the Detail route */}
+        <Route path="/REACT-DEMO" element={<Home />} />
+        <Route path="/REACT-DEMO/movie/:id" element={<Detail />} /> {/* Adding the Detail route */}
       </Routes>
     </BrowserRouter>
     

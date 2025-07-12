@@ -5,7 +5,7 @@ function Movie({id, title, genres, coverImage}) {
     return (
         <div>
             <img src={coverImage} alt={title} />
-            <Link to={`/movie/${id}`}>
+            <Link to={`/REACT-DEMO/movie/${id}`}>
                 <h2>{title}</h2>
             </Link>
             <ul>
